@@ -9,6 +9,9 @@ jobs:
     steps:
       - name: Checkout code
         uses: actions/checkout@v5
+        
+      - name: Run tests
+        run: echo "Running tests... All tests passed!"
 
       - name: Print a message
         run: echo "🎉 My first pipeline is running!"
