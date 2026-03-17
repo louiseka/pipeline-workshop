@@ -13,5 +13,8 @@ jobs:
       - name: Run tests
         run: echo "Running tests... All tests passed!"
 
+      - name: Count characters
+        run: wc -c notes.txt
+
       - name: Print a message
         run: echo "🎉 My first pipeline is running!"
